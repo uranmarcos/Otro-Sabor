@@ -1,0 +1,323 @@
+body{
+  font-family: papyrus;
+  color:#8A0808;
+}
+
+/*header*/
+header{
+  background-image: url(../img/especias3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 400px;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.index-logo{
+  width: 20%;
+  height: auto;
+  float: left;
+}
+nav{
+  float: left;
+  text-decoration: none;
+  margin-left: 37%;
+  padding-top: 20px;
+}
+.menu{
+  text-decoration: none;
+  color:#8A0808;
+  width: 100px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 10px;
+}
+.img.cel{
+  display: none;
+}
+.guarda{
+  margin-top: 83vh;
+  height: 14vh;
+  line-height: 14vh;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.guarda-texto{
+  text-align: right;
+  font-size: 5vh;
+  font-style: italic;
+}
+
+
+/*main*/
+h2{
+  text-align: center;
+  font-size: 10vh;
+}
+h3{
+  text-align: center;
+  font-size: 5vh;
+}
+p{
+  text-align: justify;
+}
+.site-products{
+  overflow: hidden;
+}
+.section-producto{
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.section-left{
+  margin-left: 10%;
+  margin-right:2.5%;
+}
+.section-right{
+  margin-left: 2.5%;
+  margin-right: 10%;
+}
+img{
+  width: 100%;
+  height: 40vh;
+}
+.ver-mas {
+  background-color: #8A0808;
+  display: block;
+  color: white;
+  width: 100%;
+  font-size: 3vh;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bloder;
+}
+.boton-ver-todos{
+  color:#8A0808;
+  display: block;
+  border: 3px solid #8A0808;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  width: 20%;
+  margin-top: 40%;
+  margin-left: 40%;
+  font-size: 3vh;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+}
+.boton-ver-todos:hover{
+  color:white;
+  background-color: #8A0808;
+}
+
+
+
+
+/*index contacto*/
+.index-contacto{
+  margin-top: 100px;
+  background-image: url(../img/sopa.jpg);
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  height: 77vh;
+  min-height: 300px;
+  margin-bottom: 0px;
+}
+h4{
+  text-align: right;
+  font-size: 7vh;
+  padding-top: 4%;
+  margin-right: 5%;
+}
+.texto-contacto{
+  text-align: right;
+  padding-top: 1%;
+  margin-right: 5%;
+  font-size: 4vh;
+  font-weight: bolder;
+}
+.boton-contacto{
+  display: block;
+  background-color: #8A0808;
+  color: white;
+  width: 10%;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 85%;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/*footer*/
+footer{
+  display: block;
+  background-color: #CF6F6F;
+  width: 100%;
+  overflow: hidden;
+  height: 10vh;
+}
+h5{
+  display: block;
+  float: left;
+  width: 41%;
+  height: 10vh;
+  margin-top: 0px;
+  font-size: 5vh;
+  text-align: right;
+  padding-top: 1.5vh;
+}
+.simbolos{
+  height: 10vh;
+  float: left;
+  text-align: center;
+  width: 14%;
+  padding-top: 2vh;
+}
+i{
+  margin: 12px;
+}
+.footer-text{
+  float: left;
+  width: 41%;
+  text-align: left;
+  padding-right: 20px;
+  font-size: 3vh;
+  padding-top: 0.4vh;
+}
+
+
+
+@media handheld, screen and (max-width:599px) {
+
+
+/*header*/
+header{
+  background-image: none;
+
+}
+.index-logo{
+  width: 100%;
+}
+nav{
+  width: 99%;
+  margin-left: 0px;
+}
+.menu{
+  display: block;
+  margin-left: 0px;
+  text-decoration: none;
+  border-bottom: solid 2px #8A0808;
+  text-align: center;
+  color:#8A0808;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 30px;
+  float: none;
+}
+.menu:hover{
+  background-color:#8A0808;
+  color: white;
+}
+.image-cel{
+  margin-top: 450px;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/especias3.jpg);
+  background-position: center;
+  background-size:contain;
+  display: run-in;
+  border: solid 1px blue;
+}
+.guarda{
+  margin-top: 83vh;
+  height: 10vh;
+  line-height: 10vh;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.guarda-texto{
+  text-align: right;
+  font-size: 4vh;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+
+
+/*main*/
+
+.section-producto{
+  width: 80%;
+  margin: 0 10% 20px 10%;
+}
+.section-left{
+  margin-left: 10%;
+  margin-right:10%;
+}
+.section-right{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.ver-mas {
+  background-color: #8A0808;
+  display: block;
+  color: white;
+  width: 100%;
+  height: 4vh;
+  line-height: 4vh;
+  font-size: 3vh;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+}
+.boton-ver-todos{
+  color:#8A0808;
+  display: block;
+  border: 3px solid #8A0808;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  width: 20%;
+  margin-top: 40%;
+  margin-left: 40%;
+  font-size: 3vh;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder;
+}
+.boton-ver-todos:hover{
+  color:white;
+  background-color: #8A0808;
+}
+
+
+
+
+/*footer*/
+footer{
+  height: 24vh;
+}
+h5{
+  display: block;
+  width: 100%;
+  height: 5vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 5vh;
+  text-align: center;
+  padding-top: 20px;
+}
+.simbolos{
+  height: 5vh;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.footer-text{
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+}
