@@ -205,10 +205,47 @@ i{
   margin-bottom: 0;
 }
 .container-contact{
+  display:flex;
+  align-items: center;
   margin-top: 0;
-  background-image: url(../img/especias8.jpg);
-  height: 90vh;
+  background-image: url(../img/contacto2.jpg);
+  height: 85vh;
   background-position: center;
   background-size:cover;
   background-repeat:no-repeat;
+}
+
+form{
+  background-color: rgba(207, 111, 111, 0.4);
+  width: 40%;
+  height: 70vh;
+  margin-left: 30%;
+  border-radius: 20px;
+  border: solid 2px #8A0808;
+  padding-top: 30px;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding-left: 20px;
+}
+.campo-formulario{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  color:#8A0808;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.boton-enviar{
+  color:#8A0808;
+  font-size: 1em;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin-left:30%;
+}
+.boton-enviar:hover{
+  background-color: #8A0808;
+  color: white;
 }
